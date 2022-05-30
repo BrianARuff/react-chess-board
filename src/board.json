@@ -1,0 +1,500 @@
+{
+    "board": [
+        {
+            "8": "8",
+            "squares": [
+                {
+                    "name": "a8",
+                    "piece": {
+                        "value": "rook",
+                        "symbol": "R",
+                        "side": "dark"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "b8",
+                    "piece": {
+                        "value": "knight",
+                        "symbol": "N",
+                        "side": "dark"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "c8",
+                    "piece": {
+                        "value": "bishop",
+                        "symbol": "B",
+                        "side": "dark"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "d8",
+                    "piece": {
+                        "value": "queen",
+                        "symbol": "Q",
+                        "side": "dark"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "e8",
+                    "piece": {
+                        "value": "King",
+                        "symbol": "K",
+                        "side": "dark"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "f8",
+                    "piece": {
+                        "value": "bishop",
+                        "symbol": "B",
+                        "side": "dark"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "g8",
+                    "piece": {
+                        "value": "knight",
+                        "symbol": "N",
+                        "side": "dark"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "h8",
+                    "piece": {
+                        "value": "rook",
+                        "symbol": "R",
+                        "side": "dark"
+                    },
+                    "color": "dark"
+                }
+            ]
+        },
+        {
+            "7": "7",
+            "squares": [
+                {
+                    "name": "a7",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "dark"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "b7",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "dark"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "c7",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "dark"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "d7",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "dark"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "e7",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "dark"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "f7",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "dark"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "g7",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "dark"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "h7",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "dark"
+                    },
+                    "color": "light"
+                }
+            ]
+        },
+        {
+            "6": "6",
+            "squares": [
+                {
+                    "name": "a6",
+                    "piece": "",
+                    "color": "light",
+                    "side": "dark"
+                },
+                {
+                    "name": "b6",
+                    "piece": "",
+                    "color": "dark",
+                    "side": "dark"
+                },
+                {
+                    "name": "c6",
+                    "piece": "",
+                    "color": "light",
+                    "side": "dark"
+                },
+                {
+                    "name": "d6",
+                    "piece": "",
+                    "color": "dark",
+                    "side": "dark"
+                },
+                {
+                    "name": "e6",
+                    "piece": "",
+                    "color": "light",
+                    "side": "dark"
+                },
+                {
+                    "name": "f6",
+                    "piece": "",
+                    "color": "dark",
+                    "side": "dark"
+                },
+                {
+                    "name": "g6",
+                    "piece": "",
+                    "color": "light",
+                    "side": "dark"
+                },
+                {
+                    "name": "h6",
+                    "piece": "",
+                    "color": "dark",
+                    "side": "dark"
+                }
+            ]
+        },
+        {
+            "5": "5",
+            "squares": [
+                {
+                    "name": "a5",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "b5",
+                    "piece": "",
+                    "color": "light"
+                },
+                {
+                    "name": "c5",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "d5",
+                    "piece": "",
+                    "color": "light"
+                },
+                {
+                    "name": "e5",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "f5",
+                    "piece": "",
+                    "color": "light"
+                },
+                {
+                    "name": "g5",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "h5",
+                    "piece": "",
+                    "color": "light"
+                }
+            ]
+        },
+        {
+            "4": "4",
+            "squares": [
+                {
+                    "name": "a4",
+                    "piece": "",
+                    "color": "light"
+                },
+                {
+                    "name": "b4",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "c4",
+                    "piece": "",
+                    "color": "light"
+                },
+                {
+                    "name": "d4",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "e4",
+                    "piece": "",
+                    "color": "light"
+                },
+                {
+                    "name": "f4",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "g4",
+                    "piece": "",
+                    "color": "light"
+                },
+                {
+                    "name": "h4",
+                    "piece": "",
+                    "color": "dark"
+                }
+            ]
+        },
+        {
+            "3": "3",
+            "squares": [
+                {
+                    "name": "a3",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "b3",
+                    "piece": "",
+                    "color": "light"
+                },
+                {
+                    "name": "c3",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "d3",
+                    "piece": "",
+                    "color": "light"
+                },
+                {
+                    "name": "e3",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "f3",
+                    "piece": "",
+                    "color": "light"
+                },
+                {
+                    "name": "g3",
+                    "piece": "",
+                    "color": "dark"
+                },
+                {
+                    "name": "h3",
+                    "piece": "",
+                    "color": "light"
+                }
+            ]
+        },
+        {
+            "2": "2",
+            "squares": [
+                {
+                    "name": "a2",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "light"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "b2",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "light"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "c2",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "light"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "d2",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "light"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "e2",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "light"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "f2",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "light"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "g2",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "light"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "h2",
+                    "piece": {
+                        "value": "pawn",
+                        "symbol": "P",
+                        "side": "light"
+                    },
+                    "color": "dark"
+                }
+            ]
+        },
+        {
+            "1": "1",
+            "squares": [
+                {
+                    "name": "a1",
+                    "piece": {
+                        "value": "rook",
+                        "symbol": "R",
+                        "side": "light"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "b1",
+                    "piece": {
+                        "value": "knight",
+                        "symbol": "N",
+                        "side": "light"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "c1",
+                    "piece": {
+                        "value": "bishop",
+                        "symbol": "B",
+                        "side": "light"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "d1",
+                    "piece": {
+                        "value": "queen",
+                        "symbol": "Q",
+                        "side": "light"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "e1",
+                    "piece": {
+                        "value": "King",
+                        "symbol": "K",
+                        "side": "light"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "f1",
+                    "piece": {
+                        "value": "bishop",
+                        "symbol": "B",
+                        "side": "light"
+                    },
+                    "color": "light"
+                },
+                {
+                    "name": "g1",
+                    "piece": {
+                        "value": "knight",
+                        "symbol": "N",
+                        "side": "light"
+                    },
+                    "color": "dark"
+                },
+                {
+                    "name": "h1",
+                    "piece": {
+                        "value": "rook",
+                        "symbol": "R",
+                        "side": "light"
+                    },
+                    "color": "light"
+                }
+            ]
+        }
+    ]
+}
