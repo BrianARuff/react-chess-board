@@ -11,23 +11,25 @@ function BoardSquare(props: Square) {
     const bg = color === 'dark' ? '#000' : '#fff';
     const textColor = color === 'dark' ? '#fff' : '#000';
 
-    const onDragEnter = (e: React.BaseSyntheticEvent) => {
-        destination = e.target;
+    const onDragOver = (e: any) => {
         e.preventDefault();
         e.stopPropagation();
+        destination = e.target.dataset.name ? e.target : e.target.parentNode;
     }
 
-    const onDragEnd = () => {
+    const onDrop = () => {
+        if (source.dataset.name === destination.dataset.name) return;
+
         updateBoardState(source, destination, pieceRef.current);
     }
 
     const onDragStart = (e: React.BaseSyntheticEvent) => {
-        source = e.target.parentNode;
+        source = e.target.dataset.name ? e.target : e.target.parentNode;
     }
 
     return (
-        <Flex data-color={color} data-name={name} onDragStart={onDragStart} onDragEnter={onDragEnter} onDragEnd={onDragEnd} justifyContent='center' alignItems='center' h={itemSize} w={itemSize} bg={bg}>
-            <Text data-side={piece.side} data-symbol={piece.symbol} data-value={piece.value} ref={pieceRef} draggable color={textColor} fontSize='lg' cursor='pointer'>{piece.symbol}</Text>
+        <Flex draggable={false} data-color={color} data-name={name} onDragStart={onDragStart} onDragOver={onDragOver} onDrop={onDrop} justifyContent='center' alignItems='center' h={itemSize} w={itemSize} bg={bg}>
+            <Text draggable data-side={piece.side} data-symbol={piece.symbol} data-value={piece.value} ref={pieceRef} color={textColor} fontSize='3xl' cursor='pointer'>{piece.symbol}</Text>
         </Flex>
     )
 }

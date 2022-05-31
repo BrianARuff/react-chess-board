@@ -7,5 +7,5 @@ export type Square = {
         symbol: string,
         side: string,
     }
-    updateBoardState: Function
+    updateBoardState: Function,
 }
